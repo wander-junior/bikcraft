@@ -64,6 +64,7 @@ img {
     width: 100%;
     background: #FEC63E; 
     padding: 15px 0;
+    z-index: 10;
 }
 
 .header_menu {
