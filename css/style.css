@@ -109,6 +109,10 @@ img {
     color: #fff;
 }
 
+.header_menu ul li a.menu_ativo {
+    color: #fff;
+}
+
 
 /* Introdução */
 
@@ -162,7 +166,7 @@ img {
 	width: 100%;
 	margin-top: 92px;
 	height: 160px;
-	background-size: cover;
+
 	text-align: center;
 	color: #fff;
 	padding-top: 30px;
@@ -284,7 +288,8 @@ img {
 }
 
 .qualidade_lista {
-    padding-top: 40px;
+    padding-top: 40px; 
+    overflow: auto; /* clear fix */
 }
 
 .qualidade_lista li {
